@@ -1,9 +1,6 @@
 Senior Project Proposal
 Online Private Tutor System
 
-Date: Aug 19, 2020
-Student:  Hussin Alabdrabalnabi
-Course: CSE 4820
 
 Description:
 
