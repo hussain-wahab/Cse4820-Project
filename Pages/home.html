@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Private Tutor</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+    <div>
+        <img class="header1" src="../Images/image1.png" alt="">
+        <a href="login.html">
+        <img class="login1" align="up"
+            src="../Images/login.jpg">
+        </a>
+        <a href="signup.html">
+        <img class="signup1"
+            src="../Images/signup.jpg">
+        </a>
+    </div>
+    <div class="topnav">
+      <a class="active" href="home.html">Home</a>
+      <a href="Subjects.html">Subjects</a>
+      <a href="Contact.html">Contact</a>
+      <a href="About.html">About</a>
+      <a href="Books.html">Books</a>
+    </div>
+    <div class="row_left">
+        <div class="col_left1"><br/><br/>
+            <h2>Video Recorded Sessions</h2>
+            <p>Our system is specially developed
+                for online tutoring, counselling and coaching. Teachers /
+                Instructors can share their content of all kinds of documents
+                and videos with their students.</p>
+            <div style="max-width: 100%">
+              <img class="mySlides" src="../Images/on1.jpg">
+              <img class="mySlides" src="../Images/on2.jpeg">
+              <img class="mySlides" src="../Images/on4.png">
+            </div>
+            <br/>
+            <h2>Online Tests and Exams</h2>
+            <p>Students are being challenged by the online exams and tests
+                as it tests the abilities of the students to stand out
+                in this era of competition.</p>
+            <div style="max-width: 100%">
+              <img class="mySlides1" src="../Images/t1.jpg">
+              <img class="mySlides1" src="../Images/t2.jpg">
+              <img class="mySlides1" src="../Images/t3.jpg">
+            </div>
+            <br/>
+            <h2>Online Books and Solutions</h2>
+            <p>Online books and solutions of various problems are being
+                available to the students in order to get help in their
+                daily assigned tasks.</p>
+            <div style="max-width: 100%">
+              <img class="mySlides2" src="../Images/e1.jpg">
+              <img class="mySlides2" src="../Images/e2.jpg">
+              <img class="mySlides2" src="../Images/e3.jpg">
+            </div>
+            <br/>
+            <h2>Home Tutors</h2>
+            <p>Skilled and experienced tutors are available for students
+                to help students with their queries and to teach them their
+                specific subjects at home</p>
+            <div style="max-width: 100%">
+              <img class="mySlides3" src="../Images/tt1.jpg">
+              <img class="mySlides3" src="../Images/tt2.jpg">
+              <img class="mySlides3" src="../Images/tt3.jpg">
+            </div>
+    <br/><br/><br/>
+        </div>
+
+        <div class="col_left2">
+            <div class="row_rit">
+                <div class="col_rit1">
+                    <h2 style="font-size: 45px">Key Features</h2>
+                    <h2 style="font-size: 45px">01.</h2>
+                    <p style="font-size: 35px">Recorded lectures of professional teachers are available
+                    for the student to get help.</p>
+                </div>
+                <br/>
+                <br/>
+                <div class="col_rit1">
+                    <h2 style="font-size: 45px">02.</h2>
+                    <p style="font-size: 35px">Online tests and exams are available to test the abilities
+                        of students</p>
+                </div>
+                <br/>
+                <br/>
+                <div class="col_rit1">
+                    <h2 style="font-size: 45px">03.</h2>
+                    <p style="font-size: 35px">Student can get access to the e-books and helping material
+                        regarding their specific subjects</p>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div class="col_rit1">
+                    <h2 style="font-size: 45px">04.</h2>
+                    <p style="font-size: 35px">Tutors are available for students to provide services at home
+                        for the convenience of students</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <footer class="back" >
+        <div class="row_left"><br/>
+            <div class="col_home">
+                <h2 style="color: white" >Who are we?</h2>
+                <p style="color: grey">We provides Home tutors and video education to a
+                    world where knowledge has become the single most important asset.</p>
+            </div>
+            <div class="col_home">
+                <h2 style="color: white">Phone and Email</h2>
+                <p style="color: grey">
+                +1-202-555-0195<br>
+                +1-202-555-0177<br>
+                +1-202-555-0131<br>
+                onlinetutoringsystem@gmail.com</p>
+            </div>
+            <div class="col_home">
+                <h2 style="color: white">Address</h2>
+                <p style="color: grey">455 Golden Gate Ave #11000, San Francisco, CA 94102, United States </p>
+            </div>
+        </div>
+    </footer>
+    <script>
+    var myIndex = 0;
+    carousel();
+    var myIndex1 = 0;
+    carouse2();
+    var myIndex2 = 0;
+    carouse3();
+    var myIndex3 = 0;
+    carouse4();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 3 seconds
+    }
+    function carouse2() {
+      var i;
+      var x = document.getElementsByClassName("mySlides1");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex1++;
+      if (myIndex1 > x.length) {myIndex1 = 1}
+      x[myIndex1-1].style.display = "block";
+      setTimeout(carouse2, 3000); // Change image every 3 seconds
+    }
+    function carouse3() {
+      var i;
+      var x = document.getElementsByClassName("mySlides2");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex2++;
+      if (myIndex2 > x.length) {myIndex2 = 1}
+      x[myIndex2-1].style.display = "block";
+      setTimeout(carouse3, 3000); // Change image every 3 seconds
+    }
+
+    function carouse4() {
+      var i;
+      var x = document.getElementsByClassName("mySlides3");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex3++;
+      if (myIndex3 > x.length) {myIndex3 = 1}
+      x[myIndex3-1].style.display = "block";
+      setTimeout(carouse4, 3000); // Change image every 3 seconds
+    }
+    </script>
+</body>
+</html>

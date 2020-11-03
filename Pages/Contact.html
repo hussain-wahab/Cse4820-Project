@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../JS/Contact.js"></script>
+</head>
+<body>
+    <div>
+        <img class="header1" src="../Images/image1.png" alt="">
+        <a href="login.html">
+        <img class="login1" align="up"
+            src="../Images/login.jpg">
+        </a>
+        <a href="signup.html">
+        <img class="signup1"
+            src="../Images/signup.jpg">
+        </a>
+    </div>
+    <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="Subjects.html">Subjects</a>
+      <a class="active" href="Contact.html">Contact</a>
+      <a href="About.html">About</a>
+      <a href="Books.html">Books</a>
+    </div>
+    <br/>
+    <br/>
+    <div class="row_contact">
+        <div class="column_contact">
+            <img  class="img_con" src="https://www.onlinetutoringsystem.com/wp-content/uploads/2019/11/contact-img.jpg?id=15543">
+        </div>
+        <div class="column_contact">
+            <h2 class="con_text">Contact</h2>
+            <p class="con_text2"> Lets get the interaction begin</p>
+            <br/>
+            <br/>
+            <div class="contact-form">
+                <form action="">
+                    <div class="form-group">
+                       <input type="text" placeholder="Name" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" cols="44" id="msg" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="form-group form-button">
+                        <input type="button" name="submit" id="submit" class="form-submit" value="Submit" onclick="loadDoc()"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <footer class="back" >
+        <div class="row_contact"><br/>
+            <div class="col_home">
+                <h2 style="color: white" >Who are we?</h2>
+                <p style="color: grey">We provides Home tutors and video education to a
+                    world where knowledge has become the single most important asset.</p>
+            </div>
+            <div class="col_home">
+                <h2 style="color: white">Phone and Email</h2>
+                <p style="color: grey">
+                +1-202-555-0195<br>
+                +1-202-555-0177<br>
+                +1-202-555-0131<br>
+                onlinetutoringsystem@gmail.com</p>
+            </div>
+            <div class="col_home">
+                <h2 style="color: white">Address</h2>
+                <p style="color: grey">455 Golden Gate Ave #11000, San Francisco, CA 94102, United States </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
